@@ -44,7 +44,7 @@ public class RandomizeStringTest {
 		HashMap<Integer, String> h = new HashMap<>();
 		Scanner file = null;
 		try {
-			file = new Scanner(new File("FILE-PATH-GOES-HERE"));
+			file = new Scanner(new File("FILE-PATH-TO-TEXT-FILE-GOES-HERE"));
 		}
 		catch (IOException e) {
 			System.out.println("File not found!");
